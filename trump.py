@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/13EI0udX_Nsvxc6qh7xIQ59bAVq3MQ2sw/view'
+export_file_url = 'https://drive.google.com/uc?export=download&id=13EI0udX_Nsvxc6qh7xIQ59bAVq3MQ2sw'
 export_file_name = 'stage1.pth'
 
 classes = ['trump', 'modi']
